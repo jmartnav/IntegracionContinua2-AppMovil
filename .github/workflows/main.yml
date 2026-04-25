@@ -29,7 +29,7 @@ jobs:
       - name: Ejecutar tests
         run: flutter test
       - name: Construir APK y AAB
-        run: flutter bueld apk --release
+        run: flutter build apk --release
       - run: flutter build appbundle --release
 
       - name: Crear release

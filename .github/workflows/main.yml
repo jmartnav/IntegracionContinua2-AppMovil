@@ -2,7 +2,7 @@ name: Flutter App
 on:
   push:
     branches:
-      - master
+      - main
 
 env:
   GH_TOKEN: ${{ secrets.TOKEN }}
